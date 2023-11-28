@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html id="landingPage" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>HELLO WOOD</title>
+		<meta name="author" content="Fang Ting HSU" />
+		<meta name="description" content="A toy-selling website ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="image/logo.png" type="image/png" sizes="10x10"/>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+    <body class="formbody">
+        <div>
+            <form class="formstyle" action="register.php" method="post">
+                <a class="navbar-brand shopper" href="./index.php">
+                <img src="image/logo.png" alt="logo">
+                </a>
+                <h1>REGISTER</h1>
+                <div class="formregister">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" placeholder="FIRST NAME" id="fname" name="fname" required />
+                </div>
+                <br />
+                
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" placeholder="LAST NAME" id="lname" name="lname" required />
+                </div>
+                <br />
+
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="USERNAME" id="username" name="username" required />
+                </div>
+                <br />
+
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="text" placeholder="PHONE" id="phone" name="phone" required />
+                </div>
+                <br />
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="EMAIL" id="email" name="email" required />
+                </div>
+                <br />
+                
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="PASSWORD" id="password" name="password" required />
+                </div>
+                <br />
+                
+                <div>
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" placeholder="CONFIRM PASSWORD" id="confirm_password" name="confirm_password" required />
+                </div>
+                <br />
+                </div>
+                <div class="roleinput">
+                    <p>Please select your role </p>
+                    <input type="radio" id="customerrole" name="role" value="customer">
+                    <label for="role">Customer</label>
+                    <input type="radio" id="adiminrole" name="role" value="admin">
+                    <label for="role">Admin</label>
+                
+                <br />
+                </div>
+                <input type="submit" class="registerbutton" name="register" value="Register" />
+            </form>
+            <!-- Link to Login Page -->
+            <div class="message">
+                <p>
+                    Already have an account? <a href="login.html">Login here</a>
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <p id="footer1">©HELLO WOOD Inc. All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>
+

@@ -1,0 +1,476 @@
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #454545;
+    background: #b2a394;
+    line-height: 1.65;
+    margin: 0;
+    display: block;
+}
+
+/*navigation-bar*/
+nav {
+    box-sizing: border-box;
+    height: 126px;
+    background: white;
+    /*border: 3px solid black;*/
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav div a {
+    text-decoration: none;
+    /*border: 3px solid black;*/
+    display: inline-block;
+    margin-top: 25px;
+    vertical-align: middle;
+    color: #989898;
+}
+
+img[alt="logo"] {
+    width: 5.5em;
+
+}
+
+.shopper {
+    padding-left: 1em;
+    vertical-align: middle;
+}
+
+#submission {
+    padding-left: 25px;
+}
+
+img[alt="cart"] {
+    vertical-align: text-bottom;
+    opacity: 50%;
+}
+
+
+.shopper:hover {
+    text-decoration: underline;
+}
+
+
+.active {
+    font-weight: bolder;
+    color: #505050;
+}
+
+/*index page*/
+
+.card-container {
+    display: grid;
+    row-gap: 2em;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.toy-image {
+    width: 80%;
+}
+
+.card-body {
+    margin-top: 1em;
+}
+
+.cardtext {
+    width: 80%;
+    padding: 0 1em;
+    margin-top: -5em;
+}
+
+#addtocart {
+    text-decoration: none;
+    background-color: #bf9b8e;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/*login*/
+
+#landingPage {
+    background-image: url(../image/backgroundForLandingPage.webp);
+    background-size: cover;
+}
+
+.formlogin label {
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: 1px;
+    z-index: 1;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    opacity: 0;
+    color: #454545;
+}
+
+.formlogin input {
+    width: 25%;
+    margin-left: 40px;
+    /*border: 3px solid black;*/
+    padding-left: 10px;
+    height: 30px;
+    margin-top: 10px;
+    color: #454545;
+}
+
+
+.formbody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #454545;
+    background: #ffffffad;
+    line-height: 1.65;
+    margin: 7em 10em;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #4d4d4d82;
+}
+
+.formstyle {
+    padding: 3em 0;
+    text-align: center;
+}
+
+
+.loginbutton {
+    text-decoration: none;
+    background-color: #bf9b8e;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+a[href="register.html"] {
+    color: #454545;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*register*/
+
+.formregister label {
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: 1px;
+    z-index: 1;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    opacity: 0;
+    color: #454545;
+}
+
+.formregister input {
+    width: 40%;
+    margin-left: 40px;
+    /*border: 3px solid black;*/
+    padding-left: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.roleinput {
+    display: inline;
+}
+
+.registerbutton {
+    text-decoration: none;
+    background-color: #bf9b8e;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.message {
+    text-align: center;
+    margin-top: -3em;
+    margin-bottom: 3em;
+}
+
+a[href="login.html"] {
+    color: #454545;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*cart*/
+
+.container {
+    display: block;
+    /*border: 3px solid black;*/
+    padding:150px 50px 0 50px;
+    margin: 0 auto;
+    
+}
+
+.cart {
+    background: #ffe8d1;
+    padding-bottom: 100px;
+}
+
+div p {
+    display: inline-block;
+    padding: 20px 40px 0 40px;
+    color: #808080;
+}
+
+.divider {
+    display: block;
+    border-top: 1px solid #808080;
+    margin: 0 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+img[alt^="toy-image"] {
+    width: 30%;
+    padding: 0 20px 20px 20px;
+    
+}
+
+div p.toy {
+    width: 100%;
+    padding: 10px 20px 0 0;
+}
+
+.shipping-label {
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: 1px;
+    z-index: 1;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+.shipping-input {
+    width: 80%;
+    margin-left: 40px;
+    /*border: 3px solid black;*/
+    padding-left: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.updatebutton {
+    text-decoration: none;
+    background-color: #96cbc5;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.delete-button {
+    text-decoration: none;
+    background-color: #fda585;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+/*insert product*/
+
+.formaddproduct label {
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: 1px;
+    z-index: 1;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    opacity: 0;
+    color: #454545;
+}
+
+.formaddproduct input {
+    width: 40%;
+    margin-left: 40px;
+    /*border: 3px solid black;*/
+    padding-left: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.insertImage {
+    width: 50%;
+    text-align: left;
+    margin-left: 32%;
+
+}
+
+/*account record*/
+
+.toy label {
+    color: #808080;
+}
+
+.lastSection {
+    margin-bottom: 50px;
+}
+
+.bottom {
+    margin-bottom: 50px;
+}
+
+.productbutton {
+    text-decoration: none;
+    background-color: #bf9b8e;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    cursor: pointer;
+}
+
+
+table,th ,td, tr {
+    border: 1px solid #808080;
+    text-align: center;
+    color: #636363;
+    min-height: 5em;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+thead {
+    height: 5em;
+}
+
+td {
+    height: 5em;
+}
+
+nav div a:active {
+    font-weight: bold;
+}
+
+#footer1 {
+    padding: 0;
+    margin-top: 0;
+    display: block;
+    text-align: center;
+}
+
+.firstFourCol{
+    width: 10%;
+}
+
+.responsiveTable{
+    overflow-x: auto;
+
+}
+
+tbody tr:hover{
+    background-color: #FFF8DC;
+}
+
+.edit-button {
+    text-decoration: none;
+    background-color: #92d5bd;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+/*edit account*/
+
+.formedit label {
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-left: 1px;
+    z-index: 1;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    opacity: 0;
+    color: #454545;
+}
+
+.formedit input {
+    width: 25%;
+    margin-left: 40px;
+    /*border: 3px solid black;*/
+    padding-left: 10px;
+    height: 30px;
+    margin-top: 10px;
+    color: #454545;
+}
+
+.editbutton {
+    text-decoration: none;
+    background-color: #bf9b8e;
+    padding: 10px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.formedit input[value] {
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formedit p {
+    padding: 0;
+}
+
+.formedit input {
+    margin-left: 1em;
+}
